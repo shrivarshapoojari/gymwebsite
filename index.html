@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrivarsha Fitness Academy</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS Reset*/
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Baloo Bhai 2', cursive;
+       
+    }
+
+    .left {
+        display: inline-block;
+        border: 9px solid deeppink;
+        position: absolute;
+        top: 30px;
+        left: 2px;
+
+    }
+
+    .mid {
+        border: 9px solid #16fba6;
+        display: block;
+        width: 55%;
+        margin: 35px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        border: 8px solid rgb(233, 6, 249);
+        position: absolute;
+        right: 15px;
+        top: 59px;
+
+    }
+
+    .navbar {
+
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .navbar li a:hover {
+        color: red;
+        text-decoration: underline;
+        padding: 10px;
+    }
+
+    .left img {
+        display: block;
+        margin: auto;
+        width: 100px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color:#ff0000;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 18px;
+        font-size: 15px;
+        cursor: pointer;
+       
+    }
+
+    .btn:hover {
+        color: rgb(0, 0, 254);
+        background-color: rgb(247, 14, 243);
+        text-decoration: underline;
+    }
+
+    .container {
+        border: 8px solid rgb(107, 1, 255);
+        margin: 290px 28px ;
+        
+        padding: 58px 42px;
+        width: 33%;
+        border-radius: 30px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+   font-size: 30px;
+    border-radius: 15px;
+        margin:11px auto;
+        padding: 6px;
+        border: 5px solid purple;
+        width: 100%;
+        font-family: 'Baloo Bhai 2', cursive;
+       
+
+
+    }
+     .container h1{
+        text-align: center;
+        color: #34f910;
+    }
+    .container button
+    {
+ position: absolute;
+ left: 480px;
+ font-size: 20px;
+ background-color: red;
+    }
+    .btn a{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <!-- left for logo -->
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div> Shrivarsha Fitness Academy</div>
+        </div>
+        <!-- mid for nav -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="aboutus.html"> About Us</a> </li>
+                <li> <a href="fitcalc.html">Fitness Calculator</a> </li>
+                <li> <a href="contactus.html"> Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn" > <a href="callus.html">  Call Us Now</a></button>
+            <button class="btn"> <a href="emailus.html">Email Us</a></button>
+        </div>
+    </header>
+    <div class="container">
+       
+        <h1> Be The Part Of Our Family</h1>
+        <form action=" noaction.php">
+            <div class="formgroup">
+                <input type="text" name=""  placeholder="Enter your name">
+            
+            </div>
+            <div class="formgroup">
+                <input type="text" name=""  placeholder="Gender">
+            
+            </div>
+            <div class="formgroup">
+                <input type="text" name=""  placeholder="Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name=""  placeholder="Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name=""  placeholder=" Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="email" name=""  placeholder=" Emai Id">
+            </div>
+                   
+                   
+                       
+<button class="btn" >Submit</button></div>
+        </form>
+    </div>
+</body>
+
+</html>
